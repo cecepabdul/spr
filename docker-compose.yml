@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  spr_service:
+    image: cecepabdul/spr:latest
+    container_name: spr_container
+    volumes:
+      - ./data:/app/data 
